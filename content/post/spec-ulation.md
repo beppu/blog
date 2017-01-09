@@ -5,6 +5,9 @@ featured = ""
 featuredalt = ""
 title = "Spec-ulation"
 categories = [
+  "programming",
+  "clojure",
+  "presentation"
 ]
 featuredpath = ""
 date = "2016-12-10T18:47:59-08:00"
@@ -16,20 +19,31 @@ author = "beppu"
 
 <https://www.youtube.com/watch?v=oyLBGkS5ICk>
 
-<style>
-#content h1 {
-  margin-top: 1em;
-  border-top: 1px solid #888;
-}
-
-#content h2 {
-  font-size: 13px;
-}
-</style>
-
 # tl;dw
 
-Coming soon...
+When Rich Hickey speaks, it's a good idea to listen. He is able to see things
+that many of the rest of us cannot, and he is able to analyze and explain his
+thoughts with a precision that is rare even among programmers.
+
+Little did I know that there was a problem with semantic versioning. It seemed
+like a reasonable system, and I never gave it a second thought until I watched
+this presentation where Rich exposed what the semantics of this system actually
+were.
+
+## Briefly, the semantics of x.y.z
+
+* z changes - don't care.
+* y changes - don't care.
+* x changes - you're screwed.
+
+That's all this system can tell you.
+
+Furthermore, this system implicitly formalizes software breakage by saying if
+you change **x**, you're allowed to make backward incompatible changes.
+
+However, do we have to break our software?
+
+Rich points us toward another way.
 
 # 0:00 Spec-ulation<a id="sec-1-2" name="sec-1-2"></a>
 
@@ -503,3 +517,15 @@ Yes. Good.
 ## Move forward without burning bridges<a id="sec-1-48-4" name="sec-1-48-4"></a>
 
 ## Create a lib/service ecosystem of which we can all be proud<a id="sec-1-48-5" name="sec-1-48-5"></a>
+
+
+<style>
+#content h1 {
+  margin-top: 1em;
+  border-top: 1px solid #888;
+}
+
+#content h2 {
+  font-size: 13px;
+}
+</style>
