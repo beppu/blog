@@ -54,7 +54,7 @@ one of the big complaints many people have about Emacs -- the keybindings.  I'm 
 classical Emacs keybindings can be hell on your fingers and wrists, and they can be hard to
 memorize too.
 
-Commands in the `SPC` menu, on the other hand, is very easy to type, and the mnemonics that have been
+Commands in the `SPC` menu, on the other hand, are very easy to type, and the mnemonics that have been
 picked are a lot more intuitive.  The way it works is while you're in command mode in a buffer,
 hit `SPC` and a menu will appear.  Each character leads to either a submenu or a command.  This
 presents you with a hierarchical tree of commands that can be explored and learned as you use
@@ -103,7 +103,7 @@ Although this is a big file, most of your time will be spent with these 3 symbol
    variable as well as any custom code goes here. For example, if you need to
    set some variables (such as indentation settings) this is where you'd do it.
 
-`SPC q R` - This is a handy way to restart emacs.
+`SPC q R` - This is a handy way to restart emacs after changing the configuration.
 
 # Navigation
 
