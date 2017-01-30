@@ -81,7 +81,7 @@ look really good, because it's syntax highlighted correctly inside your org docu
 ```
 
 There are advanced org-mode users who use this to do a form of literate
-programming, but I have note tried doing that yet.
+programming, but I have not tried doing that yet.
 
 There are many things I haven't tried yet in org-mode. For the curious, there is
 a very thorough manual that you can read at:
